@@ -475,7 +475,7 @@ toml = ">=0.10.0,<0.11.0"
 name = "toml"
 version = "0.10.2"
 description = "Python Library for Tom's Obvious, Minimal Language"
-category = "dev"
+category = "main"
 optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
@@ -562,7 +562,7 @@ uvicorn = []
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "dcabd48254eeae86bbbd0b21d52b22884406da788dd5c86629de543716d1cf1a"
+content-hash = "75bd9f5ef2d5f6e3345e95b2eaa9c9a8785b98c4b6c0d001ecd0837fffc46fac"
 
 [metadata.files]
 aiofiles = [

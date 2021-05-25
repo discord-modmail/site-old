@@ -9,12 +9,13 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
-coloredlogs = "^15.0"
-pydantic = "^1.8.2"
-starlette = "^0.14.2"
-jinja2 = "^3.0.1"
 aiofiles = "^0.7.0"
+coloredlogs = "^15.0"
+jinja2 = "^3.0.1"
+pydantic = "^1.8.2"
 python-dotenv = "^0.17.1"
+starlette = "^0.14.2"
+toml = "^0.10.2"
 uvicorn = {extras = ["standard"], version = "^0.13.4"}
 
 [tool.poetry.extras]
