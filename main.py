@@ -3,6 +3,7 @@ from starlette.routing import Mount, Request, Route
 from starlette.staticfiles import StaticFiles
 from starlette.templating import Jinja2Templates
 
+from .config import CONFIG  # noqa: F401  This should be removed once configuration is used.
 
 templates = Jinja2Templates(directory="templates")
 
